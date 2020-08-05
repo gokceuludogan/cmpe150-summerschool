@@ -11,11 +11,8 @@ Bogazici University CmpE 150 Introduction to Computing (C programming language) 
 **Last Semester's Lab Notes**
 
 * https://github.com/gokceuludogan/cmpe150
-
 * https://github.com/melsener/cmpe150
-
 * https://github.com/suyunu/c-notes
-
 * https://github.com/zeynepyirmibes/cmpe150-spring20
 
 **Additional Exercises**
