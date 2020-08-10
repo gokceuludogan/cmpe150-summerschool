@@ -2,16 +2,16 @@
 
 ### Question 1 - Staaaars
 
-#### Question 2a
+#### Question 1a
 Write a program that prints 1 star ('*') to the screen.
 
-#### Question 2b
+#### Question 1b
 Write a program that prints 10 stars ('*') next to each other to the screen.
 
-#### Question 2c
+#### Question 1c
 Write a program that reads an integer N and prints N stars ('*') next to each other to the screen.
 
-#### Question 2d
+#### Question 1d
 Write a program that reads an integer N and prints N stars ('*') vertically to the screen.
 
 
@@ -60,6 +60,7 @@ Write a program that takes two characters from user and displays characters betw
 | a e  | a b c d e |
 | b c | b c  |
 
+<br />
 
 ### Question 6 - Boom Boom POW
 
@@ -83,6 +84,7 @@ F_0 = 0, F_1 = 1, F_n = F\_(n-2) + F\_(n-1)
 | 4  | 6 |
 | 2  | 5 |
 
+<br />
 
 ## Until Loops
 
@@ -120,6 +122,7 @@ Write a program that reads numbers until the entered number is greater than the 
 | 1 2 | 1.00 |
 | 100 54 46 2 3 50| 50.50 |
 
+<br />
 
 ## Nested Loops
 
@@ -192,7 +195,6 @@ Write a program which takes an integer as input and prints an upper triangle of 
 ### Question 4 - TriHard
 
 Write a program which takes an integer N as input and prints a right triangle which consists of N many lines.
-
 
 ```
 Input:
