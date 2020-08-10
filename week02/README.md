@@ -1,16 +1,5 @@
 ##  Loops
 
-### Q1 - Triple Sum
-
-Write a program that takes 3 integers from the user and then prints the sum of the numbers.
-
-| INPUT  | OUTPUT |
-| ------ | ------ |
-| 3 4 5  | 12     |
-| 2 2 4  | 8      |
-| 1 9 15 | 25     |
-
-
 ### Question 1 - Staaaars
 
 #### Question 2a
