@@ -27,3 +27,8 @@ Bogazici University CmpE 150 Introduction to Computing (C programming language) 
 - Operators
 - Characters
 - Conditional Statements (If, If-else, Switch)
+
+
+### [Week 2](week02/)
+
+- Loops
