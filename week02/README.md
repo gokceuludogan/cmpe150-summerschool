@@ -62,7 +62,18 @@ Write a program that takes two characters from user and displays characters betw
 
 <br />
 
-### Question 6 - Boom Boom POW
+### Question 6 - Average Team
+
+Write a program that reads a number N, then reads N more numbers. Calculate the average of those N numbers.
+
+|  INPUT  |  OUTPUT |
+|:-------:|:-------:|
+| 4<br>4 9 5 2  | 4.00 |
+| 1<br>8 | 8.00  |
+
+<br />
+
+### Question 7 - Boom Boom POW
 
 Write a program that takes 2 integers a and b, then prints the result of a^b (a\*a\*a...\*a\*a). 
 
@@ -73,7 +84,7 @@ Write a program that takes 2 integers a and b, then prints the result of a^b (a\
 
 <br>
 
-### Question 7 - Fibonacci
+### Question 8 - Fibonacci
 
 Write a program which reads a positive integer number N , and prints the Nth fibonacci number. *0, 1, 1, 2, 3, 5, ...* 
 
