@@ -32,3 +32,8 @@ Bogazici University CmpE 150 Introduction to Computing (C programming language) 
 ### [Week 2](week02/)
 
 - Loops
+
+### [Week 3](week03/)
+
+- Functions
+
