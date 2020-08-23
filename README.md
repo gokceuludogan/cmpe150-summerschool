@@ -37,3 +37,7 @@ Bogazici University CmpE 150 Introduction to Computing (C programming language) 
 
 - Functions
 
+### [Week 4](week04/)
+
+- Arrays
+
