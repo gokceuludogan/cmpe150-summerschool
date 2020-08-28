@@ -257,6 +257,23 @@ int main() {
 }
 ```
 
+## Q8 - other methods:
+
+You can modify the two for loops (above), and still be able to successfully sort. 
+
+* The array is successfully sorted after N-1 passes. Therefore, you can also modify the outer for loop like below:
+```c
+for(i = 0 ; i < N - 1 ; i++){
+	for(j = 0; j < N-i-1 ; j++){
+```
+
+* In the first method, since at each pass, the last i elements are sorted, we wrote: (j < N - i - 1). If you don't care about the performance of the program, you can perform each pass for each element inside the array (j < N-1). This is a less optimal solution, since it does more comparisons unnecessarily. However, it sorts the array successfully too. 
+
+```c
+for(i = 0 ; i < N ; i++){
+	for(j = 0 ; j < N-1 ; j++){
+```
+
 ## Multidimensional Arrays
 
 ### Q1
