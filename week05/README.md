@@ -104,6 +104,24 @@ output: a from here is lake long the way
 
 <details><summary>Words</summary><img src='1576784076412.png'/></details>
 
+### Question 9 - Substring
+
+* Write a boolean function **isSubstring()** to check whether a given substring is present in the given string. It should return 0 if it's not a substring, and 1 if it is a substring. 
+
+|  INPUT  |  OUTPUT |
+|-------|-------|
+| i ben, love seni, you seviyorum<br>you | 1 |
+| i ben, love seni, you seviyorum<br>seviyo | 1 |
+| i ben, love seni, you seviyorum<br>we | 0 |
+
+### Question 10 - Word Lengths
+
+* Write a program to find the largest and smallest word in a string. (If two strings have the same length, you can select any)
+
+|  INPUT  |  OUTPUT |
+|-------|-------|
+| Dogada bulunan dort element ates su toprak tahta | Largest: bulunan<br>Smallest: su|
+
 ### Extra: String to Lowercase
 
 * Write a program to take a string from the user, and convert it into lowercase. 
@@ -111,3 +129,11 @@ output: a from here is lake long the way
 |  INPUT  |  OUTPUT |
 |-------|-------|
 | All the Single Ladies!! | all the single ladies!! |
+
+### Extra: ReVeRsE 
+
+* Write a program to read a sentence and replace lowercase characters by uppercase and vice-versa. 
+
+|  INPUT  |  OUTPUT |
+|-------|-------|
+| This Is A Test String. | tHIS iS a tEST sTRING. |
