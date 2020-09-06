@@ -41,3 +41,16 @@ Bogazici University CmpE 150 Introduction to Computing (C programming language) 
 
 - Arrays
 
+### [Week 5](week05/)
+
+- Multi-dimensional Arrays
+- Strings
+
+### [Week 6](week06/)
+
+- Structs
+
+
+
+
+
