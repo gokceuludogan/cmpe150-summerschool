@@ -219,3 +219,7 @@ int main(){
 Define a struct named: Person which has an age, and a salary. Define a struct named: Family which has up to 9 persons and personCount (integer).
 
 Write a program which takes 3 families, and returns the age of the person who earns the most in the family with the least total salary. (age of the richest person in the poorest family)
+
+|  INPUT  |  OUTPUT |
+|-------|-------|
+| 3<br>10 0 33 5000 34 5500<br>5<br>10 10 30 1100 45 500 67 1000 5 0<br>2<br>48 4800 50 5000 | Richest person in the poorest family is 30 years old. |
