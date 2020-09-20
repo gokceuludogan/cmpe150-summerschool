@@ -355,22 +355,15 @@ typedef struct rectangle{
 
 // DO_NOT_EDIT_ANYTHING_ABOVE_THIS_LINE
     
-Rectangle min_rectangle_area(Rectangle r[], int N){
+Rectangle min_rectangle_area(Rectangle rect[], int N){
     int i;
-    float min_area;
-    int ind;
-    
-    min_area = r[0].edge1*r[0].edge2;
-    ind = 0;
-    
-    for(i = 1 ; i < N ; i++){
-        if(r[i].edge1*r[i].edge2 < min_area){
-            min_area = r[i].edge1*r[i].edge2;
-            ind = i;
-        }
-    }
-    
-    return r[ind];
+    Rectangle min_rect = rect[0];
+
+    for(i = 1 ; i < N ; i++)
+        if(rect[i].edge1 * rect[i].edge2 < min_rect.edge1 * min_rect.edge2)
+            min_rect = rect[i];
+
+    return min_rect;
 }
 
 // DO_NOT_EDIT_ANYTHING_BELOW_THIS_LINE
@@ -420,16 +413,19 @@ typedef struct Family{
 } Fam_t;
 
 int poorest_family(Fam_t f[], int size){
-    int min_salary;
-    int i, j, index = -1;
-    for(i = 0; i < size; i++){
+    int min_salary = 0;
+    int i, j, index = 0;
+    
+    for(j = 0; j < f[0].personCount; j++){
+        min_salary += f[0].persons[j].salary;
+    }
+
+    for(i = 1; i < size; i++){
         int total = 0;
         for(j = 0; j < f[i].personCount; j++){
             total += f[i].persons[j].salary;
         }
-        if(i == 0){
-            min_salary = total;
-        }else if(total < min_salary){
+        if(total < min_salary){
             min_salary = total;
             index = i;
         }
@@ -448,15 +444,7 @@ int richest_member(struct Family f){
     return index;
 }
 
-/*
-SAMPLE INPUT
-3
-10 0 33 5000 34 5500
-5
-10 10 30 1100 45 500 67 1000 5 0
-2
-48 4800 50 5000
-*/
+
 int main() {
     struct Family families[3];
     int i, j;
@@ -472,3 +460,4 @@ int main() {
     return 0;
 }
 ```
+
